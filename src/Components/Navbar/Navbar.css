@@ -1,0 +1,29 @@
+nav{
+    height: 40px;
+    padding:0 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    background: #F79F1A;
+}
+nav div{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    direction: rtl;
+    color: var(--White, #FFF);
+}
+nav a{
+    color: var(--White, #FFF);
+    /* Manfard Per/R12 */
+    font-family: Ravi;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
