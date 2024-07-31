@@ -1,0 +1,71 @@
+header{
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    padding: 0 7%;
+}
+.menu{
+    display: flex;
+    width: 587px;
+    justify-content: center;
+    align-items: center;
+    gap: 63px;
+    direction: rtl;
+}
+.mune-link{
+    color: var(--Black, #383D48);
+
+    /* Ravi/R14 */
+    font-family: Ravi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.mune-link:first-child{
+    display: flex;
+    width: 98px;
+    height: 11px;
+    padding: 14px 19px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 4px 4px 0px 0px;
+    background: #F79F1A;
+}
+.categories{
+    display: flex;
+    width: 265px;
+    padding: 12px 19px;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    border-radius: 4px 4px 0px 0px;
+    background: var(--Linear01, linear-gradient(180deg, #DEDEDE 0%, rgba(222, 222, 222, 0.00) 100%));
+}
+.category{
+    width: 111px;
+    height: 21px;
+    flex-shrink: 0;
+    color: var(--Black, #383D48);
+    text-align: right;
+
+    /* Ravi/R14 */
+    font-family: Ravi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.category-icon{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
