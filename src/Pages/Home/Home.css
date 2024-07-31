@@ -1,0 +1,156 @@
+.home-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 64px;
+}
+.slider-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    
+}
+section{
+    padding: 0 7%;
+}
+section p{
+    color: #9DA5B4;
+
+    /* Ravi/R10 */
+    font-family: Ravi;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.slider{
+    width: 816px;
+    height: 516px;
+    flex-shrink: 0;
+    background: url("../../../public/slide1.jpg") lightgray 50% / cover no-repeat;
+    text-align: right;
+    border-radius: 8px;
+    position: relative;
+}
+.slider p{
+    color: var(--White, #FFF);
+
+    /* Ravi/B16 */
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 50px;
+    
+}
+.slider h1{
+    color: var(--White, #FFF);
+
+    /* Ravi/B42 */
+    font-family: Ravi;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 58.8px */
+    text-transform: uppercase;
+    text-align: right;
+    direction: rtl;
+    padding-right: 50px;
+
+}
+.slider button{
+    display: flex;
+    padding: 10px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 55.5px;
+    bottom: 61px;
+    color: var(--White, #FFF);
+    position: absolute;
+    left: 55.5px;
+    bottom: 61px;
+    background: #F79F1A;
+    border: none;
+    outline: none;
+
+    /* Ravi/R12 */
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* filters */
+.filters{
+    background: url("../../../public/finder-bg.jpg") lightgray -12.054px 2.406px / 186.485% 100% no-repeat;
+    width: 256px;
+    height: 516px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.filters h1{
+    color: var(--White, #FFF);
+
+    /* Ravi/B16 */
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.filters input{
+    display: flex;
+    width: 216px;
+    height: 20px;
+    padding: 11px 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: var(--White, #FFF);
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+}
+.filters button{
+    display: flex;
+    width: 216px;
+    height: 49px;
+    padding: 11px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 112px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #F79F1A;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+    color: var(--White, #FFF);
+
+    /* Popins/B14 */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 19.6px */
+    text-transform: capitalize;
+    cursor: pointer;
+}
