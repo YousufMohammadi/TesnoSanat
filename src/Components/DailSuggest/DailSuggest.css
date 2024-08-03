@@ -1,0 +1,267 @@
+.DailSuggest-container{
+    width: 100%;
+    height: 610px;
+    background: url("../../../public/DailSuggest.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sale-card{
+    width: 252px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 20px;
+    gap: 24px;
+    background: var(--White, #FFF);
+}
+.sale-card--header{
+    width: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    direction: rtl;
+}
+.sale-card--header__discount{
+    color: #F79F1A;
+    text-align: right;
+
+    /* Ravi/R16 */
+    font-family: Ravi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.sale-card--header__title{
+    color: var(--Black, #383D48);
+
+    /* Ravi/B30 */
+    font-family: Ravi;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.sale-card--btn{
+    display: flex;
+    width: 90px;
+    padding: 10px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 3px;
+    background: #F79F1A;
+    color: var(--White, #FFF);
+
+    /* Ravi/B12 */
+    font-family: Ravi;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.sale-card--img{
+    display: flex;
+    width: 252px;
+    height: 252px;
+    justify-content: center;
+    align-items: center;
+}
+.sale-card--img img{
+    width: 189px;
+    height: 222px;
+}
+/* daily suggest */
+.suggest-card{
+    width: 818px;
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    direction: rtl;
+    gap: 7px;
+    background: var(--White, #FFF);
+}
+.suggest-card--img{
+    display: flex;
+    width: 373px;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.suggest-card--img img{
+    width: 334px;
+    height: 334px;
+    flex-shrink: 0;
+}
+.suggest-card-content{
+    width: 484px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+    position: relative;
+}
+.suggest-card--content__title{
+    width: 254px;
+    color: var(--Black, #383D48);
+    text-align: right;
+
+    /* Ravi/R16 */
+    font-family: Ravi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.suggest-card--cost{
+    color: var(--Black, #383D48);
+    text-align: right;
+
+    /* Ravi/B16 */
+    font-family: Ravi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    direction: rtl;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.suggest-card--cost span{
+    color: #F79F1A;
+    margin-left: 20px;
+}
+.suggest-card--description{
+    width: 372px;
+    color: var(--Grey, #8690A2);
+    text-align: right;
+
+    /* Ravi/R10 */
+    font-family: Ravi;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.timer-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    margin: 18px 0;
+}
+.timer{
+    display: flex;
+    width: 55px;
+    height: 61px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--Grey04, #DEDEDE);
+}
+.timer-count{
+    color: var(--Black, #383D48);
+    text-align: center;
+
+    /* Ravi/B16 */
+    font-family: Ravi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+    text-transform: uppercase;
+}
+.timer-type{
+    color: var(--Grey, #8690A2);
+
+    /* Ravi/R14 */
+    font-family: Ravi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.share-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2px;
+}
+.share-add{
+    display: flex;
+    height: 40px;
+    padding: 11px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #F79F1A;
+    color: var(--White, #FFF);
+
+    /* Ravi/R12 */
+    font-family: Ravi;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.share-btn{
+    display: flex;
+width: 38px;
+height: 38px;
+padding: 12px 14px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px;
+background: #F79F1A;
+color: var(--White, #FFF);
+font-size: 25px;
+text-decoration: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.suggest-card-content__btn{
+    display: flex;
+    width: 197px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 38px;
+    top: -30px;
+    background: #F79F1A;
+    color: var(--White, #FFF);
+    text-align: center;
+
+    /* Ravi/B16 */
+    font-family: Ravi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+    text-transform: uppercase;
+    text-decoration: none;
+}

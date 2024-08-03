@@ -4,6 +4,7 @@ import SearchBox from '../../Components/SearchBox/SearchBox'
 import Header from '../../Components/Header/Header'
 import "../Home/Home.css"
 import Card from '../../Components/Card/Card'
+import DailSuggest from '../../Components/DailSuggest/DailSuggest'
 export default function Home() {
   return (
     <div className='home-container'>
@@ -45,6 +46,7 @@ export default function Home() {
           <Card src="card8.png" />
         </div>
       </section>
+      <DailSuggest />
     </div>
   )
 }
