@@ -3,6 +3,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 import SearchBox from '../../Components/SearchBox/SearchBox'
 import Header from '../../Components/Header/Header'
 import "../Home/Home.css"
+import Card from '../../Components/Card/Card'
 export default function Home() {
   return (
     <div className='home-container'>
@@ -16,18 +17,32 @@ export default function Home() {
         <div className="slider-container">
           <div className="slider">
             {/* <img src="slide1.jpg" alt="slide1" /> */}
-            <p>انتخاب گسترده ای از ابزار صنعتی</p>
-            <h1>با نازل ترین قیمت!</h1>
+            <p className='slider-par'>انتخاب گسترده ای از ابزار صنعتی</p>
+            <h1 className='slider-title'>با نازل ترین قیمت!</h1>
             <button>همین الان انتخاب کنید</button>
           </div>
           <div className="filters">
-            <h1>قطعات مورد نیاز را انتخاب کنید</h1>
+            <h1 className='filters-title'>قطعات مورد نیاز را انتخاب کنید</h1>
             <input type="text" />
             <input type="text" />
             <input type="text" />
             <input type="text" />
             <button>یافتن ابزار</button>
           </div>
+        </div>
+      </section>
+      <section className='most-sell'>
+        <p className='sell-par'>پر فروش هفته</p>
+        <h2 className="heading"> <span>.</span>  پر فروش ترین ها <span>.</span> </h2>
+        <div className="row">
+          <Card src="card1.png" />
+          <Card src="card2.png" />
+          <Card src="card3.png" />
+          <Card src="card4.png" />
+          <Card src="card5.png" discount={true} />
+          <Card src="card6.png" />
+          <Card src="card7.png" discount={true} />
+          <Card src="card8.png" />
         </div>
       </section>
     </div>

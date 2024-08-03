@@ -17,7 +17,7 @@
 section{
     padding: 0 7%;
 }
-section p{
+.par{
     color: #9DA5B4;
 
     /* Ravi/R10 */
@@ -33,12 +33,12 @@ section p{
     width: 816px;
     height: 516px;
     flex-shrink: 0;
-    background: url("../../../public/slide1.jpg") lightgray 50% / cover no-repeat;
+    background: url("../../../public/slide1.png") lightgray 50% / cover no-repeat;
     text-align: right;
     border-radius: 8px;
     position: relative;
 }
-.slider p{
+.slider-par{
     color: var(--White, #FFF);
 
     /* Ravi/B16 */
@@ -53,7 +53,7 @@ section p{
     padding-top: 50px;
     
 }
-.slider h1{
+.slider-title{
     color: var(--White, #FFF);
 
     /* Ravi/B42 */
@@ -104,7 +104,7 @@ section p{
     justify-content: center;
     align-items: center;
 }
-.filters h1{
+.filters-title{
     color: var(--White, #FFF);
 
     /* Ravi/B16 */
@@ -153,4 +153,51 @@ section p{
     line-height: 140%; /* 19.6px */
     text-transform: capitalize;
     cursor: pointer;
+}
+/* most sell */
+.most-sell{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sell-par{
+    color: #F79F1A;
+
+/* Ravi/R16 */
+font-family: Ravi;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.heading{
+    color: var(--Black, #383D48);
+
+    /* Ravi/B38 */
+    font-family: Ravi;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+.heading span{
+    color: #F79F1A;
+    
+    /* Ravi/B38 */
+    font-family: Ravi;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 53.2px */
+}
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    flex-wrap: wrap;
 }
