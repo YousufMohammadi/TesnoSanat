@@ -201,3 +201,10 @@ line-height: 140%; /* 22.4px */
     gap: 26px;
     flex-wrap: wrap;
 }
+/* newst */
+.newst{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

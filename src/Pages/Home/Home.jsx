@@ -5,6 +5,7 @@ import Header from '../../Components/Header/Header'
 import "../Home/Home.css"
 import Card from '../../Components/Card/Card'
 import DailSuggest from '../../Components/DailSuggest/DailSuggest'
+import Slider from '../../Components/Slider/Slider'
 export default function Home() {
   return (
     <div className='home-container'>
@@ -47,6 +48,11 @@ export default function Home() {
         </div>
       </section>
       <DailSuggest />
+      <section className="newst">
+        <p className='sell-par'>جدیدترین ابزارهای  هفته</p>
+        <h2 className="heading"> <span>.</span> ابزارهای تازه رسیده <span>.</span> </h2>
+        <Slider />
+      </section>
     </div>
   )
 }
