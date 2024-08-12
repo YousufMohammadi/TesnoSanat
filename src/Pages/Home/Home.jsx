@@ -6,6 +6,7 @@ import "../Home/Home.css";
 import Card from "../../Components/Card/Card";
 import DailSuggest from "../../Components/DailSuggest/DailSuggest";
 import Slider from "../../Components/Slider/Slider";
+import Category from "../../Components/Category/Category";
 export default function Home() {
 	return (
 		<div className="home-container">
@@ -84,6 +85,9 @@ export default function Home() {
 						</a>
 					</div>
 				</div>
+			</section>
+			<section className="category">
+				<Category />
 			</section>
 		</div>
 	);

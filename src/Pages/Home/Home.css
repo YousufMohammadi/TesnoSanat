@@ -285,3 +285,8 @@ section {
 	font-weight: 700;
 	line-height: normal;
 }
+/* category */
+.category {
+	width: 100%;
+	padding: 0px;
+}
